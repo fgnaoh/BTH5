@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập Thông Tin Nhóm Hàng</title>
+</head>
+<body>
+
+<h2>Nhập Thông Tin Nhóm Hàng</h2>
+<form action="processCategory.php" method="POST">
+    <label for="name">Tên Nhóm Hàng:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="description">Mô Tả Nhóm Hàng:</label>
+    <textarea id="description" name="description" required></textarea><br><br>
+
+    <input type="submit" value="Lưu">
+</form>
+<a href="inputUser.html"><button>Back to Enter User</button></a>
+<a href="admin.php"><button>Admin</button></a>
+</body>
+</html>
